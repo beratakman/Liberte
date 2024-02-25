@@ -1,0 +1,131 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #e7e6e6;
+    line-height: 0;
+    box-shadow: 0px 3px 0px #bebebe;
+}
+
+header .logo {
+    float: left;
+}
+
+header .logo #img1 {
+    width: 300px;
+    height: 104px;
+}
+
+header ul.navbar {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+header ul.navbar li {
+    display: inline-block;
+    margin-left: 181px;
+    font-size: 32px;
+}
+
+header ul.navbar li a {
+    color: #000;
+    text-decoration: none;
+    transition: 1.5S;
+}
+
+header ul.navbar li a:hover {
+    color: #56718a;
+}
+
+/*content*/
+.content {
+    /*background-color: aqua;*/
+    min-height: 1200px;
+}
+
+/*footer*/
+footer {
+    /*margin: 30px;*/
+    /*margin-top: 0px;*/
+    /*margin: 30px 0 0 0;*/
+    /*kenarların üstten başlar saat yönüne devam eder*/
+    padding: 30px;
+    background: #ddd;
+    text-align: center;
+}
+
+/*slider*/
+
+
+/*about*/
+#about {
+    background-color: red;
+    min-height: 600px;
+    padding: 300px 600px 200px 600px;
+}
+
+/*img*/
+#about>#aboutİmg {
+    padding: 0;
+    margin: 150px 0px 150px 00px;
+    width: 300px;
+    height: 104px;
+}
+
+/*text*/
+.text {
+    font-size: 25px;
+}
+
+/*
+#faq { --->1. ID
+    background-color: aquamarine;
+}
+
+.faq { --->2. CLASS
+    background-color: #f00;
+}
+
+body { --->3. HTML TAG
+    background-color: blue !important; ---> IMPORTANT -> DİĞERLERİNİ EZER
+}
+*/
+
+
+/*title*/
+/*
+<body class="faq color">
+    <div class="content">
+        <span>
+            <h1 class="title">blue</h1>
+        <span>
+        <h1 class="title">blue</h1>
+        <h1>blue</h1>
+    </div>
+</body>
+*/
+
+/*
+.faq .content .title {
+    color: blue;
+}
+*/
+
+/*iç içe sarmal*/
+.faq>.content>.title {
+    /*buradaki boşluklar altındaki seçiçiyi bulmaya çalışır*/
+    color: blue;
+}
+
+
+/*
+.faq.color .title {
+    color: blue;
+}
+*/
