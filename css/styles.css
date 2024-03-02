@@ -17,8 +17,8 @@ header .logo {
 }
 
 header .logo #img1 {
-    width: 300px;
-    height: 104px;
+    width: 400px;
+    height: 140px;
 }
 
 header ul.navbar {
@@ -65,23 +65,43 @@ footer {
 
 /*about*/
 #about {
-    background-color: red;
+    background-color: #e7e6e6;
     min-height: 600px;
     padding: 300px 600px 200px 600px;
 }
 
 /*img*/
-#about>#aboutİmg {
+#aboutİmg {
     padding: 0;
-    margin: 150px 0px 150px 00px;
-    width: 300px;
-    height: 104px;
+    margin: -254px 0px 150px -512px;
+    width: 400px;
+    height: 140px;
+}
+
+
+/*name*/
+.name {
+    font-family: sans-serif;
+    color: rgb(45, 75, 121);
+    font-size: 40px;
+    margin: -84px 0px 0px -500px;
+}
+
+/*slogan*/
+.slogan{
+    font-size: 100px;
+    width: 1200px;
+    height: 115px;
+    margin: -240px 0px 0px 0px;
+    color: rgb(45, 75, 121);
 }
 
 /*text*/
-.text {
-    font-size: 25px;
+
+#text{
+    font-size: 25;
 }
+
 
 /*
 #faq { --->1. ID
