@@ -66,8 +66,9 @@ footer {
 /*about*/
 #about {
     background-color: #e7e6e6;
-    min-height: 600px;
-    padding: 300px 600px 200px 600px;
+    /*min-height: 300px;*/
+    padding: 300px 700px 200px 600px;
+    height: 140px;
 }
 
 /*img*/
@@ -79,27 +80,40 @@ footer {
 }
 
 
-/*name*/
-.name {
-    font-family: sans-serif;
-    color: rgb(45, 75, 121);
-    font-size: 40px;
-    margin: -84px 0px 0px -500px;
-}
 
 /*slogan*/
 .slogan{
     font-size: 100px;
     width: 1200px;
     height: 115px;
-    margin: -240px 0px 0px 0px;
+    margin: -280px 0px 0px 0px;
     color: rgb(45, 75, 121);
 }
 
 /*text*/
 
-#text{
-    font-size: 25;
+#text{    
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.text{
+    display: inline-block;
+    margin: 120px -520px 0px 0px;
+    font-size: 25px;
+    position: relative;
+    right: 510px;
+}
+
+/*informations*/
+.informations{
+    display: inline-block;
+    margin: 80px 0px 0px 0px;
+    font-size: 20px;
+    position: relative;
+    left: 700px;
+    bottom: 600px;
 }
 
 
