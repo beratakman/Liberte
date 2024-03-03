@@ -46,7 +46,6 @@ header ul.navbar li a:hover {
 /*content*/
 .content {
     /*background-color: aqua;*/
-    min-height: 1200px;
 }
 
 /*footer*/
@@ -68,7 +67,7 @@ footer {
     background-color: #e7e6e6;
     /*min-height: 300px;*/
     padding: 300px 700px 200px 600px;
-    height: 140px;
+    min-height: 640px;
 }
 
 /*img*/
@@ -82,7 +81,7 @@ footer {
 
 
 /*slogan*/
-.slogan{
+.slogan {
     font-size: 100px;
     width: 1200px;
     height: 115px;
@@ -92,27 +91,24 @@ footer {
 
 /*text*/
 
-#text{    
-    float: left;
+.text {
     margin: 0;
     padding: 0;
 }
 
-.text{
+.text p {
     display: inline-block;
-    margin: 120px -520px 0px 0px;
     font-size: 25px;
-    position: relative;
-    right: 510px;
 }
 
 /*informations*/
-.informations{
-    display: inline-block;
-    margin: 80px 0px 0px 0px;
+.informations {
+    display: inline-flex;
+    /* margin: 90px 0px 0px 0px; */
     font-size: 20px;
-    position: relative;
-    left: 700px;
+    /* position: relative; */
+    align-items: center;
+    float: right;
     bottom: 600px;
 }
 
