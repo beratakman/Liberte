@@ -44,16 +44,17 @@ header ul.navbar li a:hover {
 }
 
 /*content*/
-/* .content 
-    background-color: aqua;{}
-*/
+.content {
+    /*background-color: aqua;*/
+    min-height: 1200px;
+}
 
 /*footer*/
 footer {
     /*margin: 30px;*/
     /*margin-top: 0px;*/
     /*margin: 30px 0 0 0;*/
-    /*kenarların üstten başlar saat yönüne devam eder*/
+    /*kenarlarÄ±n Ã¼stten baÅŸlar saat yÃ¶nÃ¼ne devam eder*/
     padding: 30px;
     background: #ddd;
     text-align: center;
@@ -67,7 +68,7 @@ footer {
     background-color: #e7e6e6;
     /*min-height: 300px;*/
     padding: 300px 700px 200px 600px;
-    min-height: 640px;
+    height: 140px;
 }
 
 /*img*/
@@ -81,7 +82,7 @@ footer {
 
 
 /*slogan*/
-.slogan {
+.slogan{
     font-size: 100px;
     width: 1200px;
     height: 115px;
@@ -91,24 +92,27 @@ footer {
 
 /*text*/
 
-.text {
+#text{    
+    float: left;
     margin: 0;
     padding: 0;
 }
 
-.text p {
+.text{
     display: inline-block;
+    margin: 120px -520px 0px 0px;
     font-size: 25px;
+    position: relative;
+    right: 510px;
 }
 
 /*informations*/
-.informations {
-    display: inline-flex;
-    /* margin: 90px 0px 0px 0px; */
+.informations{
+    display: inline-block;
+    margin: 80px 0px 0px 0px;
     font-size: 20px;
-    /* position: relative; */
-    align-items: center;
-    float: right;
+    position: relative;
+    left: 700px;
     bottom: 600px;
 }
 
@@ -123,7 +127,7 @@ footer {
 }
 
 body { --->3. HTML TAG
-    background-color: blue !important; ---> IMPORTANT -> DİĞERLERİNİ EZER
+    background-color: blue !important; ---> IMPORTANT -> DÄ°ÄERLERÄ°NÄ° EZER
 }
 */
 
@@ -147,9 +151,9 @@ body { --->3. HTML TAG
 }
 */
 
-/*iç içe sarmal*/
+/*iÃ§ iÃ§e sarmal*/
 .faq>.content>.title {
-    /*buradaki boşluklar altındaki seçiçiyi bulmaya çalışır*/
+    /*buradaki boÅŸluklar altÄ±ndaki seÃ§iÃ§iyi bulmaya Ã§alÄ±ÅŸÄ±r*/
     color: blue;
 }
 
