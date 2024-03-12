@@ -7,7 +7,7 @@ body {
 header {
     display: flex;
     align-items: center;
-    background-color: #e7e6e6;
+    background-color: #ddd;
     line-height: 0;
     box-shadow: 0px 3px 0px #bebebe;
 }
@@ -56,7 +56,7 @@ footer {
     /*margin: 30px 0 0 0;*/
     /*kenarlarÄ±n Ã¼stten baÅŸlar saat yÃ¶nÃ¼ne devam eder*/
     padding: 30px;
-    background: #ddd;
+    background: #c0c0c0;
     text-align: center;
 }
 
@@ -65,10 +65,10 @@ footer {
 
 /*about*/
 #about {
-    background-color: #e7e6e6;
+    background-color: #ddd;
     /*min-height: 300px;*/
     padding: 0;
-    min-height: 800px;
+    min-height: 750px;
 }
 
 /*img*/
@@ -85,7 +85,7 @@ footer {
     font-size: 100px;
     float: right;
     margin: 50px 130px 0px 0px;
-    color: rgb(45, 75, 121);
+    color: #2d4b79;
 }
 
 /*text*/
@@ -102,16 +102,21 @@ footer {
     padding-bottom: 25px;
     padding-top: 25px;
 }
-/* 
-informations
+
+/* informations */
+.informations-container{    
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 5px;
+    margin-top: 34px;
+}
 .informations{
-    display: inline-block;
-    margin: 80px 0px 0px 0px;
-    font-size: 20px;
-    position: relative;
-    left: 700px;
-    bottom: 600px;
-} */
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 17px;
+    text-align: center;
+    color: #1a3f75;
+}
 
 
 /*
