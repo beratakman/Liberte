@@ -67,46 +67,43 @@ footer {
 #about {
     background-color: #e7e6e6;
     /*min-height: 300px;*/
-    padding: 300px 700px 200px 600px;
-    height: 140px;
+    padding: 0;
+    min-height: 800px;
 }
 
 /*img*/
 #aboutİmg {
-    padding: 0;
-    margin: -254px 0px 150px -512px;
+    margin: 40px 0px 0px 40px;
     width: 400px;
-    height: 140px;
+    min-height: 140px;
 }
 
 
 
 /*slogan*/
-.slogan{
+.slogan {
     font-size: 100px;
-    width: 1200px;
-    height: 115px;
-    margin: -280px 0px 0px 0px;
+    float: right;
+    margin: 50px 130px 0px 0px;
     color: rgb(45, 75, 121);
 }
 
 /*text*/
 
-#text{    
-    float: left;
-    margin: 0;
-    padding: 0;
+#text {
+    font-size: 20px;
+    padding: 0px 175px 0px 175px;
+    text-align: left;
 }
 
 .text{
     display: inline-block;
-    margin: 120px -520px 0px 0px;
-    font-size: 25px;
-    position: relative;
-    right: 510px;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 25px;
 }
-
-/*informations*/
+/* 
+informations
 .informations{
     display: inline-block;
     margin: 80px 0px 0px 0px;
@@ -114,7 +111,7 @@ footer {
     position: relative;
     left: 700px;
     bottom: 600px;
-}
+} */
 
 
 /*
