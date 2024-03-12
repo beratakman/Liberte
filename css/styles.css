@@ -7,7 +7,7 @@ body {
 header {
     display: flex;
     align-items: center;
-    background-color: #e7e6e6;
+    background-color: #ddd;
     line-height: 0;
     box-shadow: 0px 3px 0px #bebebe;
 }
@@ -54,9 +54,9 @@ footer {
     /*margin: 30px;*/
     /*margin-top: 0px;*/
     /*margin: 30px 0 0 0;*/
-    /*kenarların üstten başlar saat yönüne devam eder*/
+    /*kenarlarÄ±n Ã¼stten baÅŸlar saat yÃ¶nÃ¼ne devam eder*/
     padding: 30px;
-    background: #ddd;
+    background: #c0c0c0;
     text-align: center;
 }
 
@@ -65,41 +65,57 @@ footer {
 
 /*about*/
 #about {
-    background-color: #e7e6e6;
-    min-height: 600px;
-    padding: 300px 600px 200px 600px;
+    background-color: #ddd;
+    /*min-height: 300px;*/
+    padding: 0;
+    min-height: 750px;
 }
 
 /*img*/
 #aboutİmg {
-    padding: 0;
-    margin: -254px 0px 150px -512px;
+    margin: 40px 0px 0px 40px;
     width: 400px;
-    height: 140px;
+    min-height: 140px;
 }
 
 
-/*name*/
-.name {
-    font-family: sans-serif;
-    color: rgb(45, 75, 121);
-    font-size: 40px;
-    margin: -84px 0px 0px -500px;
-}
 
 /*slogan*/
-.slogan{
+.slogan {
     font-size: 100px;
-    width: 1200px;
-    height: 115px;
-    margin: -240px 0px 0px 0px;
-    color: rgb(45, 75, 121);
+    float: right;
+    margin: 50px 130px 0px 0px;
+    color: #2d4b79;
 }
 
 /*text*/
 
-#text{
-    font-size: 25;
+#text {
+    font-size: 20px;
+    padding: 0px 175px 0px 175px;
+    text-align: left;
+}
+
+.text{
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+/* informations */
+.informations-container{    
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 5px;
+    margin-top: 34px;
+}
+.informations{
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 17px;
+    text-align: center;
+    color: #1a3f75;
 }
 
 
@@ -113,7 +129,7 @@ footer {
 }
 
 body { --->3. HTML TAG
-    background-color: blue !important; ---> IMPORTANT -> DİĞERLERİNİ EZER
+    background-color: blue !important; ---> IMPORTANT -> DÄ°ÄERLERÄ°NÄ° EZER
 }
 */
 
@@ -137,9 +153,9 @@ body { --->3. HTML TAG
 }
 */
 
-/*iç içe sarmal*/
+/*iÃ§ iÃ§e sarmal*/
 .faq>.content>.title {
-    /*buradaki boşluklar altındaki seçiçiyi bulmaya çalışır*/
+    /*buradaki boÅŸluklar altÄ±ndaki seÃ§iÃ§iyi bulmaya Ã§alÄ±ÅŸÄ±r*/
     color: blue;
 }
 
