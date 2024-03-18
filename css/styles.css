@@ -4,6 +4,11 @@ body {
     margin: 0;
 }
 
+a {
+    color: inherit;
+    /* A etiketinin rengini miras al */
+}
+
 header {
     display: flex;
     align-items: center;
@@ -28,7 +33,7 @@ header ul.navbar {
 
 header ul.navbar li {
     display: inline-block;
-    margin-left: 181px;
+    margin-left: 205px;
     font-size: 32px;
 }
 
@@ -60,6 +65,15 @@ footer {
     text-align: center;
 }
 
+.products>.content {
+    min-height: 900px;
+}
+
+.products>.content-slider {
+    padding: 10px 0 15px 0;
+    margin-top: 10px;
+}
+
 /*slider*/
 
 * {
@@ -77,7 +91,7 @@ footer {
     padding: 10px 0 10px 0;
 }
 
-.slider{
+.slider {
     position: relative;
 }
 
@@ -179,6 +193,45 @@ footer {
     color: #1a3f75;
 }
 
+/*sections*/
+.sections {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 300px;
+    padding: 25px 0;
+}
+
+.sections>a {
+    color: #bbb;
+}
+
+.sections>a:hover{
+    color: #000;
+    text-decoration: none;
+    transition: 1.5S;
+}
+
+.special-day-shoes {
+    color: #bbb;
+}
+
+/*category*/
+
+.lower-category {
+    display: none;
+}
+
+.special-day-shoes_lower-category {
+    margin-left: 55px;
+    margin-top: 25px;
+    color: #bbb;
+    
+}
+.special-day-shoes_lower-category:hover {
+    color: #000;
+    text-decoration: none;
+    transition: 1.5S;
+}
 
 /*
 #faq { --->1. ID
