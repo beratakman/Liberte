@@ -28,7 +28,7 @@ header ul.navbar {
 
 header ul.navbar li {
     display: inline-block;
-    margin-left: 181px;
+    margin-left: 205px;
     font-size: 32px;
 }
 
@@ -60,6 +60,13 @@ footer {
     text-align: center;
 }
 
+.products>.content{
+    min-height: 900px;
+}
+.products>.content-slider{
+    padding: 10px 0 15px 0;
+}
+
 /*slider*/
 
 * {
@@ -77,7 +84,7 @@ footer {
     padding: 10px 0 10px 0;
 }
 
-.slider{
+.slider {
     position: relative;
 }
 
@@ -178,6 +185,19 @@ footer {
     text-align: center;
     color: #1a3f75;
 }
+
+/*sections*/
+.sections {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 300px;
+    padding: 25px 0;
+}
+
+.sections>h3 {
+    color: #bbb;
+}
+
 
 
 /*
