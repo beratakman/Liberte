@@ -14,7 +14,7 @@
             </div>
             <ul class="navbar">
                 <li class="link"><a href="products.html">Ürünler</a></li>
-                <li class="link"><a href="#about">Hakkımızda</a></li>
+                <li class="link"><a href="index.html#about">Hakkımızda</a></li>
                 <li class="link"><a href="contact.html">İletişim</a></li>
                 <li class="link"><a href="cart.html">Sepetim</a></li>
             </ul>
@@ -22,13 +22,21 @@
         <div class="content">
 
             <div class="sections">
-                <h3>SPOR AYAKKABILAR</h3>
-                <h3>GÜNLÜK AYAKKABILAR</h3>
-                <h3>ÖZEL GÜN AYAKKABILARI</h3>
+                <a href="sports-shoes.html"><h3>SPOR AYAKKABILAR</h3></a>
+                <a href="daily-shoes.html"><h3>GÜNLÜK AYAKKABILAR</h3></a>
+                <div class="main-category" onmouseover="showSubcategories()" onmouseout="hideSubcategories()">
+                    <h3 class="special-day-shoes">ÖZEL GÜN AYAKKABILARI</h3>
+                    <div class="lower-category" id="lower-category">
+                      <a class="special-day-shoes_lower-category" href="special-day-shoes(Men).html">Erkek</a>
+                      <a class="special-day-shoes_lower-category" href="special-day-shoes(Woman).html">Kadın</a>
+                    </div>
+                </div>
             </div>
+
+              
             <div class="content-slider">
                 <div class="slider">
-                    <img class="slider-1" src="./images/slider-1.jpeg">
+                    <a href="sports-shoes.html" class="link-1"><img class="slider-1" src="./images/slider-1.jpeg"></a>
                     <div class="back"><i class="fa-solid fa-arrow-left fa-2x" onclick="back()"></i></div>
                     <div class="next"><i class="fa-solid fa-arrow-right fa-2x" onclick="next()"></i></div>
                 </div>
