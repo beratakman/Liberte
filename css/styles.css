@@ -74,6 +74,78 @@ footer {
     margin-top: 10px;
 }
 
+/* sports-shoes */
+
+.sports-shoes>.content>.product-indicator>.top>div {
+    width: 400px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.sports-shoes>.content>.product-indicator>.top {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 75px;
+    padding-top: 75px;
+}
+
+.sports-shoes>.content>.product-indicator>.top>.sport-shoes-div-top>.cart-add-top {
+    margin-top: -9px;
+    width: 400px;
+    height: 96px;
+    background-color: #ddd;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: monospace;
+}
+
+.sports-shoes>.content>.product-indicator>.top>.sport-shoes-div-top>img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/*  */
+
+
+.sports-shoes>.content>.product-indicator>.bottom>div {
+    width: 400px;
+    background-color: #fff;
+    border-radius: 5px;
+
+}
+
+.sports-shoes>.content>.product-indicator>.bottom {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 75px;
+    padding-top: 150px;
+}
+
+.sports-shoes>.content>.product-indicator>.bottom>.sport-shoes-div-bottom>.cart-add-bottom {
+    margin-top: -9px;
+    width: 400px;
+    height: 96px;
+    background-color: #ddd;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: monospace;
+}
+
+.sports-shoes>.content>.product-indicator>.bottom>.sport-shoes-div-bottom>img {
+    width: 100%;
+    border-radius: 5px;
+}
+
 /*slider*/
 
 * {
@@ -205,7 +277,7 @@ footer {
     color: #bbb;
 }
 
-.sections>a:hover{
+.sections>a:hover {
     color: #000;
     text-decoration: none;
     transition: 1.5S;
@@ -225,8 +297,9 @@ footer {
     margin-left: 55px;
     margin-top: 25px;
     color: #bbb;
-    
+
 }
+
 .special-day-shoes_lower-category:hover {
     color: #000;
     text-decoration: none;
